@@ -1,0 +1,1 @@
+This repository contains code for the projects on my blog: [mauricebrg.com](https://mauricebrg.com/)
