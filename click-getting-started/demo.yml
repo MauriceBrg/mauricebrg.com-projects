@@ -1,0 +1,381 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /click
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 18
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: calculator_cli_v1.py Demo
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 16
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1025
+    content: "\e]0;maurice@TheCloud\e\\\e]7;file://TheCloud\e\\\e]0;maurice@TheCloud\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m\e[00m$ "
+  - delay: 1452
+    content: p
+  - delay: 76
+    content: 'y'
+  - delay: 197
+    content: t
+  - delay: 81
+    content: h
+  - delay: 24
+    content: o
+  - delay: 165
+    content: 'n'
+  - delay: 79
+    content: ' '
+  - delay: 168
+    content: c
+  - delay: 92
+    content: a
+  - delay: 163
+    content: l
+  - delay: 176
+    content: c
+  - delay: 164
+    content: u
+  - delay: 455
+    content: 'lator_cli_v1.py '
+  - delay: 1339
+    content: '1'
+  - delay: 194
+    content: ' '
+  - delay: 349
+    content: '2'
+  - delay: 733
+    content: "\r\n"
+  - delay: 55
+    content: "1 + 2 = 3\r\n"
+  - delay: 15
+    content: "\e]0;maurice@TheCloud\e\\\e]7;file://TheCloud\e\\\e]0;maurice@TheCloud\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m\e[00m$ "
+  - delay: 1278
+    content: p
+  - delay: 49
+    content: 'y'
+  - delay: 195
+    content: t
+  - delay: 61
+    content: h
+  - delay: 22
+    content: o
+  - delay: 180
+    content: 'n'
+  - delay: 155
+    content: "\a"
+  - delay: 696
+    content: ' '
+  - delay: 175
+    content: c
+  - delay: 100
+    content: a
+  - delay: 140
+    content: l
+  - delay: 272
+    content: 'culator_cli_v1.py '
+  - delay: 1051
+    content: '1'
+  - delay: 410
+    content: ' '
+  - delay: 737
+    content: '2'
+  - delay: 176
+    content: ' '
+  - delay: 521
+    content: '-'
+  - delay: 172
+    content: '-'
+  - delay: 510
+    content: o
+  - delay: 129
+    content: o
+  - delay: 119
+    content: p
+  - delay: 278
+    content: ' '
+  - delay: 271
+    content: "\b\e[K"
+  - delay: 160
+    content: "\b\e[K"
+  - delay: 164
+    content: "\b\e[K"
+  - delay: 654
+    content: p
+  - delay: 206
+    content: ' '
+  - delay: 295
+    content: s
+  - delay: 121
+    content: u
+  - delay: 127
+    content: b
+  - delay: 299
+    content: t
+  - delay: 145
+    content: r
+  - delay: 457
+    content: a
+  - delay: 215
+    content: c
+  - delay: 260
+    content: t
+  - delay: 227
+    content: "\r\n"
+  - delay: 46
+    content: "1 - 2 = -1\r\n"
+  - delay: 5
+    content: "\e]0;maurice@TheCloud\e\\"
+  - delay: 5
+    content: "\e]7;file://TheCloud\e\\\e]0;maurice@TheCloud\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m\e[00m$ "
+  - delay: 2098
+    content: p
+  - delay: 90
+    content: 'y'
+  - delay: 193
+    content: t
+  - delay: 109
+    content: h
+  - delay: 173
+    content: "\aon"
+  - delay: 679
+    content: ' '
+  - delay: 73
+    content: c
+  - delay: 83
+    content: a
+  - delay: 157
+    content: l
+  - delay: 213
+    content: 'culator_cli_v1.py '
+  - delay: 1522
+    content: '3'
+  - delay: 520
+    content: ' '
+  - delay: 208
+    content: '4'
+  - delay: 424
+    content: ' '
+  - delay: 249
+    content: '-'
+  - delay: 137
+    content: '-'
+  - delay: 493
+    content: o
+  - delay: 156
+    content: p
+  - delay: 197
+    content: ' '
+  - delay: 388
+    content: m
+  - delay: 192
+    content: u
+  - delay: 143
+    content: l
+  - delay: 169
+    content: t
+  - delay: 81
+    content: i
+  - delay: 196
+    content: p
+  - delay: 163
+    content: l
+  - delay: 173
+    content: 'y'
+  - delay: 154
+    content: "\r\n"
+  - delay: 45
+    content: "3 * 4 = 12\r\n"
+  - delay: 6
+    content: "\e]0;maurice@TheCloud\e\\\e]7;file://TheCloud\e\\\e]0;maurice@TheCloud\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m\e[00m$ "
+  - delay: 1830
+    content: p
+  - delay: 83
+    content: 'y'
+  - delay: 182
+    content: t
+  - delay: 17
+    content: h
+  - delay: 39
+    content: o
+  - delay: 206
+    content: "\an"
+  - delay: 581
+    content: ' '
+  - delay: 113
+    content: c
+  - delay: 98
+    content: a
+  - delay: 198
+    content: l
+  - delay: 190
+    content: 'culator_cli_v1.py '
+  - delay: 2986
+    content: '4'
+  - delay: 299
+    content: ' '
+  - delay: 557
+    content: '2'
+  - delay: 468
+    content: ' '
+  - delay: 251
+    content: '-'
+  - delay: 140
+    content: '-'
+  - delay: 213
+    content: o
+  - delay: 95
+    content: p
+  - delay: 284
+    content: ' '
+  - delay: 604
+    content: d
+  - delay: 164
+    content: e
+  - delay: 610
+    content: "\b\e[K"
+  - delay: 219
+    content: i
+  - delay: 77
+    content: v
+  - delay: 142
+    content: i
+  - delay: 99
+    content: d
+  - delay: 213
+    content: e
+  - delay: 1052
+    content: "\r\n"
+  - delay: 52
+    content: "4 / 2 = 2.0\r\n"
+  - delay: 8
+    content: "\e]0;maurice@TheCloud\e\\\e]7;file://TheCloud\e\\\e]0;maurice@TheCloud\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m\e[00m$ "
+  - delay: 2620
+    content: python calculator_cli_v1.py 4 2 --op divide
+  - delay: 332
+    content: "\b\e[K"
+  - delay: 184
+    content: "\b\e[K"
+  - delay: 302
+    content: "\b\e[K"
+  - delay: 162
+    content: "\b\e[K"
+  - delay: 172
+    content: "\b\e[K"
+  - delay: 147
+    content: "\b\e[K"
+  - delay: 193
+    content: a
+  - delay: 179
+    content: d
+  - delay: 157
+    content: d
+  - delay: 155
+    content: "\r\n"
+  - delay: 35
+    content: "4 + 2 = 6\r\n"
+  - delay: 5
+    content: "\e]0;maurice@TheCloud\e\\"
+  - delay: 11
+    content: "\e]7;file://TheCloud\e\\\e]0;maurice@TheCloud\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m\e[00m$ "
