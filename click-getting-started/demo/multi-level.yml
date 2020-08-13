@@ -1,0 +1,255 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /projects/maurice-website-projects/click-getting-started
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 72
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 15
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "Demo: multi_level_cli.py"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 16
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1009
+    content: "\e]0;\e\\\e]7;file://TheCloud/projects/maurice-website-projects/click-getting-started\e\\\e]0;\a\e[01;32m\e[00m$ "
+  - delay: 1190
+    content: python multi_level_cli.py
+  - delay: 1402
+    content: "\r\n"
+  - delay: 59
+    content: "Usage: multi_level_cli.py [OPTIONS] COMMAND [ARGS]...\r\n\r\n  Top level\r\n\r\nOptions:\r\n  --help  Show this message and exit.\r\n\r\nCommands:\r\n  second-level-1  Second level 1\r\n  second-level-2  Second level 2\r\n"
+  - delay: 5
+    content: "\e]0;\e\\\e]7;file://TheCloud/projects/maurice-website-projects/click-getting-started\e\\\e]0;\a\e[01;32m\e[00m$ "
+  - delay: 1435
+    content: python multi_level_cli.py
+  - delay: 982
+    content: ' '
+  - delay: 78
+    content: s
+  - delay: 167
+    content: e
+  - delay: 199
+    content: c
+  - delay: 66
+    content: o
+  - delay: 159
+    content: 'n'
+  - delay: 68
+    content: d
+  - delay: 205
+    content: '-'
+  - delay: 196
+    content: l
+  - delay: 86
+    content: e
+  - delay: 172
+    content: v
+  - delay: 79
+    content: e
+  - delay: 63
+    content: l
+  - delay: 324
+    content: '-'
+  - delay: 246
+    content: '1'
+  - delay: 1171
+    content: "\r\n"
+  - delay: 63
+    content: "Usage: multi_level_cli.py second-level-1 [OPTIONS] COMMAND [ARGS]...\r\n\r\n  Second level 1\r\n\r\nOptions:\r\n  --help  Show this message and exit.\r\n\r\nCommands:\r\n  third-level-command-1  Third level command under 2nd level 1\r\n  third-level-command-2  Third level command under 2nd level 1\r\n"
+  - delay: 5
+    content: "\e]0;\e\\\e]7;file://TheCloud/projects/maurice-website-projects/click-getting-started\e\\\e]0;\a\e[01;32m\e[00m$ "
+  - delay: 2249
+    content: c
+  - delay: 132
+    content: l
+  - delay: 99
+    content: e
+  - delay: 82
+    content: a
+  - delay: 139
+    content: r
+  - delay: 146
+    content: "\r\n\e[H\e[2J\e[3J\e]0;\e\\\e]7;file://TheCloud/projects/maurice-website-projects/click-getting-started\e\\\e]0;\a\e[01;32m\e[00m$ "
+  - delay: 853
+    content: clear
+  - delay: 796
+    content: "\b\b\b\b\bpython multi_level_cli.py second-level-1"
+  - delay: 724
+    content: "\b\e[K"
+  - delay: 94
+    content: '2'
+  - delay: 757
+    content: "\r\n"
+  - delay: 51
+    content: "Usage: multi_level_cli.py second-level-2 [OPTIONS] COMMAND [ARGS]...\r\n\r\n  Second level 2\r\n\r\nOptions:\r\n  --help  Show this message and exit.\r\n\r\nCommands:\r\n  third-level-command-3  Third level command under 2nd level 2\r\n"
+  - delay: 10
+    content: "\e]0;\e\\\e]7;file://TheCloud/projects/maurice-website-projects/click-getting-started\e\\\e]0;\a\e[01;32m\e[00m$ "
+  - delay: 2614
+    content: python multi_level_cli.py second-level-2
+  - delay: 1323
+    content: ' '
+  - delay: 185
+    content: t
+  - delay: 745
+    content: h
+  - delay: 84
+    content: i
+  - delay: 49
+    content: r
+  - delay: 194
+    content: d
+  - delay: 703
+    content: '-'
+  - delay: 204
+    content: l
+  - delay: 96
+    content: e
+  - delay: 151
+    content: v
+  - delay: 53
+    content: e
+  - delay: 70
+    content: l
+  - delay: 228
+    content: '-'
+  - delay: 161
+    content: c
+  - delay: 89
+    content: o
+  - delay: 176
+    content: m
+  - delay: 94
+    content: m
+  - delay: 858
+    content: a
+  - delay: 196
+    content: 'n'
+  - delay: 58
+    content: d
+  - delay: 195
+    content: '-'
+  - delay: 399
+    content: '3'
+  - delay: 255
+    content: ' '
+  - delay: 210
+    content: '-'
+  - delay: 151
+    content: '-'
+  - delay: 676
+    content: h
+  - delay: 137
+    content: e
+  - delay: 77
+    content: l
+  - delay: 158
+    content: p
+  - delay: 362
+    content: "\r\n"
+  - delay: 47
+    content: "Usage: multi_level_cli.py second-level-2 third-level-command-3 \r\n           [OPTIONS]\r\n\r\n  Third level command under 2nd level 2\r\n\r\nOptions:\r\n  --help  Show this message and exit.\r\n"
+  - delay: 6
+    content: "\e]0;\e\\\e]7;file://TheCloud/projects/maurice-website-projects/click-getting-started\e\\\e]0;\a\e[01;32m\e[00m$ "
+  - delay: 3130
+    content: "logout\r\n"
