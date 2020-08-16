@@ -56,6 +56,16 @@ def divide(divident: int, divisor: int) -> float:
     """Returns DIVIDENT / DIVISOR."""
     click.echo(f"{divident} / {divisor} = {divident/divisor}")
 
+@cli.command()
+@click.argument("addends", required=True, type=click.INT, nargs=-1)
+@click.argument("divisor", callback=validate_divisor)
+def add_and_divide(addends: typing.Tuple[int], divisor: int) -> None:
+    """Returns sum(ADDEDENDS) / Divisor"""
+    
+    addends_str = " + ".join([str(x) for x in addends])
+    result = sum(addends) / divisor
+
+    click.echo(f'({ addends_str}) / {divisor} = {result}')
 
 if __name__ == "__main__":
     cli()
