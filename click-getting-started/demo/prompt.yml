@@ -1,0 +1,217 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /projects/maurice-website-projects/click-getting-started
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 65
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 10
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Demo | prompts.py
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 16
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 500
+    content: "$ "
+  - delay: 300
+    content: p
+  - delay: 122
+    content: 'y'
+  - delay: 205
+    content: t
+  - delay: 128
+    content: h
+  - delay: 73
+    content: o
+  - delay: 194
+    content: 'n'
+  - delay: 166
+    content: ' '
+  - delay: 151
+    content: p
+  - delay: 121
+    content: r
+  - delay: 107
+    content: o
+  - delay: 190
+    content: m
+  - delay: 464
+    content: p
+  - delay: 240
+    content: t
+  - delay: 200
+    content: s
+  - delay: 232
+    content: .
+  - delay: 223
+    content: p
+  - delay: 99
+    content: 'y'
+  - delay: 470
+    content: ' '
+  - delay: 424
+    content: p
+  - delay: 127
+    content: r
+  - delay: 100
+    content: o
+  - delay: 140
+    content: m
+  - delay: 176
+    content: p
+  - delay: 152
+    content: t
+  - delay: 546
+    content: "\r\n"
+  - delay: 64
+    content: 'Please enter a username: '
+  - delay: 1927
+    content: m
+  - delay: 95
+    content: a
+  - delay: 113
+    content: u
+  - delay: 88
+    content: r
+  - delay: 130
+    content: i
+  - delay: 141
+    content: c
+  - delay: 72
+    content: e
+  - delay: 369
+    content: b
+  - delay: 720
+    content: "\r\nPlease enter a new password: "
+  - delay: 3952
+    content: "\r\nRepeat for confirmation: "
+  - delay: 1008
+    content: "\r\nError: the two entered values do not match\r\nPlease enter a new password: "
+  - delay: 3720
+    content: "\r\nRepeat for confirmation: "
+  - delay: 3320
+    content: "\r\nWould you like to subscribe to our newsletter? [False]: "
+  - delay: 2016
+    content: 'y'
+  - delay: 188
+    content: e
+  - delay: 176
+    content: s
+  - delay: 244
+    content: "\r\nWhat is your favorite color? (blue, green, yellow): "
+  - delay: 2380
+    content: g
+  - delay: 80
+    content: r
+  - delay: 208
+    content: e
+  - delay: 168
+    content: e
+  - delay: 136
+    content: 'n'
+  - delay: 272
+    content: "\r\nUsername: mauriceb | Password: ************* | Newsletter: True | Favorite color: \e[32mgreen\e[0m\r\n"
+  - delay: 10
+    content: "$ "
+  - delay: 3454
+    content: "logout\r\n"

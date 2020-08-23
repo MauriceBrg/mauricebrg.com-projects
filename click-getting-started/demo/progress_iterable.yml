@@ -1,0 +1,659 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /projects/maurice-website-projects/click-getting-started
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 95
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 5
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "Demo: progress_bar.py iterables"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 16
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 50
+    content: "\e]0;\e\\\e]7;file://\e\\\e]0;\a\e[01;32m\e[00m$ "
+  - delay: 50
+    content: p
+  - delay: 76
+    content: 'y'
+  - delay: 200
+    content: t
+  - delay: 51
+    content: h
+  - delay: 36
+    content: o
+  - delay: 169
+    content: 'n'
+  - delay: 115
+    content: ' '
+  - delay: 131
+    content: p
+  - delay: 98
+    content: r
+  - delay: 112
+    content: o
+  - delay: 153
+    content: 'gress_bar.py '
+  - delay: 838
+    content: i
+  - delay: 142
+    content: t
+  - delay: 66
+    content: e
+  - delay: 229
+    content: r
+  - delay: 80
+    content: a
+  - delay: 245
+    content: b
+  - delay: 122
+    content: l
+  - delay: 104
+    content: e
+  - delay: 468
+    content: "\r\n"
+  - delay: 539
+    content: "\r\e[?25lProcessing items in the iterable...  [##----------------------------------]    7%"
+  - delay: 86
+    content: "\r\e[?25lProcessing items in the iterable...  [##----------------------------------]    8%"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [###---------------------------------]    8%"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [###---------------------------------]    9%"
+  - delay: 49
+    content: "\r\e[?25lProcessing items in the iterable...  [###---------------------------------]   10%"
+  - delay: 71
+    content: "\r\e[?25lProcessing items in the iterable...  [####--------------------------------]   11%"
+  - delay: 49
+    content: "\r\e[?25lProcessing items in the iterable...  [####--------------------------------]   12%"
+  - delay: 74
+    content: "\r\e[?25lProcessing items in the iterable...  [####--------------------------------]   13%"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [#####-------------------------------]   14%"
+  - delay: 63
+    content: "\r\e[?25lProcessing items in the iterable...  [#####-------------------------------]   14%  00:00:05"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [#####-------------------------------]   15%  00:00:05"
+  - delay: 46
+    content: "\r\e[?25lProcessing items in the iterable...  [#####-------------------------------]   16%  00:00:05"
+  - delay: 55
+    content: "\r\e[?25lProcessing items in the iterable...  [######------------------------------]   16%  00:00:05"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [######------------------------------]   17%  00:00:05"
+  - delay: 69
+    content: "\r\e[?25lProcessing items in the iterable...  [######------------------------------]   18%  00:00:05"
+  - delay: 50
+    content: "\r\e[?25lProcessing items in the iterable...  [######------------------------------]   19%  00:00:05"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [#######-----------------------------]   19%  00:00:05"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [#######-----------------------------]   20%  00:00:05"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [#######-----------------------------]   21%  00:00:05"
+  - delay: 78
+    content: "\r\e[?25lProcessing items in the iterable...  [########----------------------------]   22%  00:00:05"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [########----------------------------]   23%  00:00:05"
+  - delay: 71
+    content: "\r\e[?25lProcessing items in the iterable...  [########----------------------------]   24%  00:00:05"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [#########---------------------------]   25%  00:00:05"
+  - delay: 76
+    content: "\r\e[?25lProcessing items in the iterable...  [#########---------------------------]   26%  00:00:05"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [#########---------------------------]   26%  00:00:04"
+  - delay: 23
+    content: "\r\e[?25lProcessing items in the iterable...  [#########---------------------------]   27%  00:00:04"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [##########--------------------------]   28%  00:00:04"
+  - delay: 72
+    content: "\r\e[?25lProcessing items in the iterable...  [##########--------------------------]   29%  00:00:04"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [##########--------------------------]   30%  00:00:04"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [###########-------------------------]   30%  00:00:04"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [###########-------------------------]   31%  00:00:04"
+  - delay: 57
+    content: "\r\e[?25lProcessing items in the iterable...  [###########-------------------------]   32%  00:00:04"
+  - delay: 71
+    content: "\r\e[?25lProcessing items in the iterable...  [###########-------------------------]   33%  00:00:04"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [############------------------------]   33%  00:00:04"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [############------------------------]   34%  00:00:04"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [############------------------------]   35%  00:00:04"
+  - delay: 78
+    content: "\r\e[?25lProcessing items in the iterable...  [#############-----------------------]   36%  00:00:04"
+  - delay: 52
+    content: "\r\e[?25lProcessing items in the iterable...  [#############-----------------------]   37%  00:00:04"
+  - delay: 92
+    content: "\r\e[?25lProcessing items in the iterable...  [#############-----------------------]   38%  00:00:04"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [##############----------------------]   39%  00:00:04"
+  - delay: 53
+    content: "\r\e[?25lProcessing items in the iterable...  [##############----------------------]   39%  00:00:03"
+  - delay: 23
+    content: "\r\e[?25lProcessing items in the iterable...  [##############----------------------]   40%  00:00:03"
+  - delay: 49
+    content: "\r\e[?25lProcessing items in the iterable...  [##############----------------------]   41%  00:00:03"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [###############---------------------]   41%  00:00:03"
+  - delay: 25
+    content: "\r\e[?25lProcessing items in the iterable...  [###############---------------------]   42%  00:00:03"
+  - delay: 92
+    content: "\r\e[?25lProcessing items in the iterable...  [###############---------------------]   43%  00:00:03"
+  - delay: 50
+    content: "\r\e[?25lProcessing items in the iterable...  [###############---------------------]   44%  00:00:03"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [################--------------------]   44%  00:00:03"
+  - delay: 53
+    content: "\r\e[?25lProcessing items in the iterable...  [################--------------------]   45%  00:00:03"
+  - delay: 60
+    content: "\r\e[?25lProcessing items in the iterable...  [################--------------------]   46%  00:00:03"
+  - delay: 78
+    content: "\r\e[?25lProcessing items in the iterable...  [#################-------------------]   47%  00:00:03"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [#################-------------------]   48%  00:00:03"
+  - delay: 88
+    content: "\r\e[?25lProcessing items in the iterable...  [#################-------------------]   49%  00:00:03"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [##################------------------]   50%  00:00:03"
+  - delay: 85
+    content: "\r\e[?25lProcessing items in the iterable...  [##################------------------]   51%  00:00:03"
+  - delay: 77
+    content: "\r\e[?25lProcessing items in the iterable...  [##################------------------]   52%  00:00:03"
+  - delay: 46
+    content: "\r\e[?25lProcessing items in the iterable...  [###################-----------------]   53%  00:00:03"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [###################-----------------]   54%  00:00:03"
+  - delay: 27
+    content: "\r\e[?25lProcessing items in the iterable...  [###################-----------------]   54%  00:00:02"
+  - delay: 23
+    content: "\r\e[?25lProcessing items in the iterable...  [###################-----------------]   55%  00:00:02"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [####################----------------]   55%  00:00:02"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [####################----------------]   56%  00:00:02"
+  - delay: 55
+    content: "\r\e[?25lProcessing items in the iterable...  [####################----------------]   57%  00:00:02"
+  - delay: 82
+    content: "\r\e[?25lProcessing items in the iterable...  [####################----------------]   58%  00:00:02"
+  - delay: 23
+    content: "\r\e[?25lProcessing items in the iterable...  [#####################---------------]   58%  00:00:02"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [#####################---------------]   59%  00:00:02"
+  - delay: 50
+    content: "\r\e[?25lProcessing items in the iterable...  [#####################---------------]   60%  00:00:02"
+  - delay: 74
+    content: "\r\e[?25lProcessing items in the iterable...  [######################--------------]   61%  00:00:02"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [######################--------------]   62%  00:00:02"
+  - delay: 71
+    content: "\r\e[?25lProcessing items in the iterable...  [######################--------------]   63%  00:00:02"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [#######################-------------]   64%  00:00:02"
+  - delay: 72
+    content: "\r\e[?25lProcessing items in the iterable...  [#######################-------------]   65%  00:00:02"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [#######################-------------]   66%  00:00:02"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [########################------------]   66%  00:00:02"
+  - delay: 23
+    content: "\r\e[?25lProcessing items in the iterable...  [########################------------]   67%  00:00:02"
+  - delay: 79
+    content: "\r\e[?25lProcessing items in the iterable...  [########################------------]   68%  00:00:02"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [########################------------]   69%  00:00:02"
+  - delay: 23
+    content: "\r\e[?25lProcessing items in the iterable...  [#########################-----------]   69%  00:00:02"
+  - delay: 23
+    content: "\r\e[?25lProcessing items in the iterable...  [#########################-----------]   69%  00:00:01"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [#########################-----------]   70%  00:00:01"
+  - delay: 53
+    content: "\r\e[?25lProcessing items in the iterable...  [#########################-----------]   71%  00:00:01"
+  - delay: 72
+    content: "\r\e[?25lProcessing items in the iterable...  [##########################----------]   72%  00:00:01"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [##########################----------]   73%  00:00:01"
+  - delay: 70
+    content: "\r\e[?25lProcessing items in the iterable...  [##########################----------]   74%  00:00:01"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [###########################---------]   75%  00:00:01"
+  - delay: 72
+    content: "\r\e[?25lProcessing items in the iterable...  [###########################---------]   76%  00:00:01"
+  - delay: 76
+    content: "\r\e[?25lProcessing items in the iterable...  [###########################---------]   77%  00:00:01"
+  - delay: 52
+    content: "\r\e[?25lProcessing items in the iterable...  [############################--------]   78%  00:00:01"
+  - delay: 71
+    content: "\r\e[?25lProcessing items in the iterable...  [############################--------]   79%  00:00:01"
+  - delay: 46
+    content: "\r\e[?25lProcessing items in the iterable...  [############################--------]   80%  00:00:01"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [#############################-------]   80%  00:00:01"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [#############################-------]   81%  00:00:01"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [#############################-------]   82%  00:00:01"
+  - delay: 72
+    content: "\r\e[?25lProcessing items in the iterable...  [#############################-------]   83%  00:00:01"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [##############################------]   83%  00:00:01"
+  - delay: 54
+    content: "\r\e[?25lProcessing items in the iterable...  [##############################------]   84%  00:00:01"
+  - delay: 53
+    content: "\r\e[?25lProcessing items in the iterable...  [##############################------]   85%  00:00:00"
+  - delay: 80
+    content: "\r\e[?25lProcessing items in the iterable...  [###############################-----]   86%  00:00:00"
+  - delay: 46
+    content: "\r\e[?25lProcessing items in the iterable...  [###############################-----]   87%  00:00:00"
+  - delay: 76
+    content: "\r\e[?25lProcessing items in the iterable...  [###############################-----]   88%  00:00:00"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [################################----]   89%  00:00:00"
+  - delay: 72
+    content: "\r\e[?25lProcessing items in the iterable...  [################################----]   90%  00:00:00"
+  - delay: 54
+    content: "\r\e[?25lProcessing items in the iterable...  [################################----]   91%  00:00:00"
+  - delay: 55
+    content: "\r\e[?25lProcessing items in the iterable...  [#################################---]   91%  00:00:00"
+  - delay: 23
+    content: "\r\e[?25lProcessing items in the iterable...  [#################################---]   92%  00:00:00"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [#################################---]   93%  00:00:00"
+  - delay: 70
+    content: "\r\e[?25lProcessing items in the iterable...  [#################################---]   94%  00:00:00"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [##################################--]   94%  00:00:00"
+  - delay: 54
+    content: "\r\e[?25lProcessing items in the iterable...  [##################################--]   95%  00:00:00"
+  - delay: 59
+    content: "\r\e[?25lProcessing items in the iterable...  [##################################--]   96%  00:00:00"
+  - delay: 76
+    content: "\r\e[?25lProcessing items in the iterable...  [###################################-]   97%  00:00:00"
+  - delay: 50
+    content: "\r\e[?25lProcessing items in the iterable...  [###################################-]   98%  00:00:00"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [###################################-]   99%  00:00:00"
+  - delay: 71
+    content: "\r\e[?25lProcessing items in the iterable...  [####################################]  100%          \e[?25h\r\n"
+  - delay: 8
+    content: "\e]0;\e\\\e]7;file://\e\\\e]0;\a\e[01;32m\e[00m$ "
+  - delay: 640
+    content: c
+  - delay: 166
+    content: l
+  - delay: 109
+    content: e
+  - delay: 63
+    content: a
+  - delay: 134
+    content: r
+  - delay: 196
+    content: "\r\n\e[H\e[2J\e[3J\e]0;\e\\\e]7;file://\e\\\e]0;\a\e[01;32m\e[00m$ "
+  - delay: 1081
+    content: clear
+  - delay: 343
+    content: "\b\b\b\b\bpython progress_bar.py iterable"
+  - delay: 289
+    content: '-'
+  - delay: 203
+    content: w
+  - delay: 118
+    content: i
+  - delay: 111
+    content: t
+  - delay: 91
+    content: h
+  - delay: 225
+    content: '-'
+  - delay: 230
+    content: c
+  - delay: 121
+    content: o
+  - delay: 200
+    content: l
+  - delay: 173
+    content: o
+  - delay: 130
+    content: r
+  - delay: 177
+    content: s
+  - delay: 363
+    content: "\r\n"
+  - delay: 613
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]    6%"
+  - delay: 45
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]    7%"
+  - delay: 87
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]    8%"
+  - delay: 23
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]    8%"
+  - delay: 51
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]    9%"
+  - delay: 61
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   10%"
+  - delay: 81
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   11%"
+  - delay: 52
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   12%"
+  - delay: 78
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   13%  00:00:06"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   14%  00:00:06"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   15%  00:00:06"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   16%  00:00:06"
+  - delay: 53
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   16%  00:00:06"
+  - delay: 28
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   17%  00:00:06"
+  - delay: 108
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   18%  00:00:06"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   19%  00:00:06"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   19%  00:00:06"
+  - delay: 58
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   20%  00:00:06"
+  - delay: 49
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   21%  00:00:06"
+  - delay: 74
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   22%  00:00:06"
+  - delay: 25
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   22%  00:00:05"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   23%  00:00:05"
+  - delay: 74
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   24%  00:00:05"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   25%  00:00:05"
+  - delay: 72
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   26%  00:00:05"
+  - delay: 71
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   27%  00:00:05"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   28%  00:00:05"
+  - delay: 82
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   29%  00:00:05"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   30%  00:00:05"
+  - delay: 53
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   30%  00:00:05"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   31%  00:00:05"
+  - delay: 54
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   32%  00:00:05"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   32%  00:00:04"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   33%  00:00:04"
+  - delay: 25
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   33%  00:00:04"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   34%  00:00:04"
+  - delay: 51
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   35%  00:00:04"
+  - delay: 77
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   36%  00:00:04"
+  - delay: 51
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   37%  00:00:04"
+  - delay: 76
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   38%  00:00:04"
+  - delay: 50
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   39%  00:00:04"
+  - delay: 74
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   40%  00:00:04"
+  - delay: 58
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   41%  00:00:04"
+  - delay: 50
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   41%  00:00:04"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   42%  00:00:04"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   43%  00:00:04"
+  - delay: 55
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   44%  00:00:04"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   44%  00:00:04"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   44%  00:00:03"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   45%  00:00:03"
+  - delay: 49
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   46%  00:00:03"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   47%  00:00:03"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   48%  00:00:03"
+  - delay: 80
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   49%  00:00:03"
+  - delay: 49
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   50%  00:00:03"
+  - delay: 84
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   51%  00:00:03"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   52%  00:00:03"
+  - delay: 52
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   53%  00:00:03"
+  - delay: 74
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   54%  00:00:03"
+  - delay: 62
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   55%  00:00:03"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   55%  00:00:03"
+  - delay: 45
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   56%  00:00:03"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   57%  00:00:03"
+  - delay: 81
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   58%  00:00:03"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   58%  00:00:02"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   59%  00:00:02"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   60%  00:00:02"
+  - delay: 84
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   61%  00:00:02"
+  - delay: 65
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   62%  00:00:02"
+  - delay: 75
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   63%  00:00:02"
+  - delay: 64
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   64%  00:00:02"
+  - delay: 75
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   65%  00:00:02"
+  - delay: 55
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   66%  00:00:02"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   66%  00:00:02"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   67%  00:00:02"
+  - delay: 103
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   68%  00:00:02"
+  - delay: 49
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   69%  00:00:02"
+  - delay: 26
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   69%  00:00:02"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   70%  00:00:02"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   71%  00:00:02"
+  - delay: 76
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   72%  00:00:01"
+  - delay: 52
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   73%  00:00:01"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   74%  00:00:01"
+  - delay: 51
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   75%  00:00:01"
+  - delay: 71
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   76%  00:00:01"
+  - delay: 111
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   77%  00:00:01"
+  - delay: 52
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   78%  00:00:01"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   79%  00:00:01"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   80%  00:00:01"
+  - delay: 54
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   80%  00:00:01"
+  - delay: 25
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   81%  00:00:01"
+  - delay: 50
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   82%  00:00:01"
+  - delay: 74
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   83%  00:00:01"
+  - delay: 25
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   83%  00:00:01"
+  - delay: 49
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   84%  00:00:01"
+  - delay: 48
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   85%  00:00:01"
+  - delay: 55
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   85%  00:00:00"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   86%  00:00:00"
+  - delay: 54
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   87%  00:00:00"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   88%  00:00:00"
+  - delay: 49
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   89%  00:00:00"
+  - delay: 97
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   90%  00:00:00"
+  - delay: 46
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   91%  00:00:00"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   91%  00:00:00"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   92%  00:00:00"
+  - delay: 87
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   93%  00:00:00"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   94%  00:00:00"
+  - delay: 24
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   94%  00:00:00"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   95%  00:00:00"
+  - delay: 66
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m\e[37m\e[2m-\e[0m]   96%  00:00:00"
+  - delay: 73
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m]   97%  00:00:00"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m]   98%  00:00:00"
+  - delay: 76
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[37m\e[2m-\e[0m]   99%  00:00:00"
+  - delay: 47
+    content: "\r\e[?25lProcessing items in the iterable...  [\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m\e[32m#\e[0m]  100%          \e[?25h\r\n"
+  - delay: 10
+    content: "\e]0;\e\\\e]7;file://\e\\\e]0;\a\e[01;32m\e[00m$ "
+  - delay: 1193
+    content: "logout\r\n"
