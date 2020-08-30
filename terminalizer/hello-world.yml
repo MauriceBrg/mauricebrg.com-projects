@@ -1,0 +1,227 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /projects/maurice-website-projects/terminalizer
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 100
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 22
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 978
+    content: "\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m/projects/maurice-website-projects/terminalizer\e[00m$ "
+  - delay: 1824
+    content: t
+  - delay: 61
+    content: e
+  - delay: 141
+    content: r
+  - delay: 76
+    content: m
+  - delay: 60
+    content: i
+  - delay: 171
+    content: 'n'
+  - delay: 156
+    content: a
+  - delay: 109
+    content: l
+  - delay: 164
+    content: i
+  - delay: 192
+    content: z
+  - delay: 138
+    content: e
+  - delay: 77
+    content: r
+  - delay: 1378
+    content: ' '
+  - delay: 200
+    content: r
+  - delay: 46
+    content: e
+  - delay: 228
+    content: c
+  - delay: 145
+    content: o
+  - delay: 48
+    content: r
+  - delay: 203
+    content: d
+  - delay: 139
+    content: ' '
+  - delay: 187
+    content: h
+  - delay: 124
+    content: e
+  - delay: 118
+    content: l
+  - delay: 148
+    content: l
+  - delay: 192
+    content: o
+  - delay: 926
+    content: "\r\n"
+  - delay: 886
+    content: "defaultConfigPath\r\n"
+  - delay: 11
+    content: "The recording session is started\r\nPress \e[32mCTRL+D\e[39m to exit and save the recording\r\n"
+  - delay: 70
+    content: "\e]0;maurice@TheCloud: /projects/maurice-website-projects/terminalizer\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m/projects/maurice-website-projects/terminalizer\e[00m$ "
+  - delay: 1984
+    content: e
+  - delay: 204
+    content: c
+  - delay: 94
+    content: h
+  - delay: 47
+    content: o
+  - delay: 177
+    content: ' '
+  - delay: 654
+    content: '"'
+  - delay: 386
+    content: h
+  - delay: 101
+    content: e
+  - delay: 141
+    content: l
+  - delay: 139
+    content: l
+  - delay: 202
+    content: o
+  - delay: 212
+    content: ' '
+  - delay: 428
+    content: W
+  - delay: 151
+    content: o
+  - delay: 103
+    content: r
+  - delay: 171
+    content: l
+  - delay: 104
+    content: d
+  - delay: 597
+    content: '!'
+  - delay: 658
+    content: '"'
+  - delay: 1186
+    content: "\r\r\nhello World!\r\r\n\e]0;maurice@TheCloud: /projects/maurice-website-projects/terminalizer\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m/projects/maurice-website-projects/terminalizer\e[00m$ "
+  - delay: 1506
+    content: "logout\r\r\n"
+  - delay: 11
+    content: "\e[32mSuccessfully Recorded\e[39m\r\nThe recording data is saved into the file:\r\n\e[35m/projects/maurice-website-projects/terminalizer/hello.yml\e[39m\r\nYou can edit the file and even change the configurations.\r\nThe command \e[35m`terminalizer share`\e[39mcan be used anytime to share recordings!\r\n"
+  - delay: 12
+    content: "\e[32m?\e[39m \e[1mWould you like to share your recording on terminalizer.com?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22m\e[68D\e[68C"
+  - delay: 2031
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWould you like to share your recording on terminalizer.com?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22mn\e[69D\e[69C"
+  - delay: 1050
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWould you like to share your recording on terminalizer.com?\e[22m\e[0m \e[0m\e[36mNo\e[39m\e[64D\e[64C\r\n"
+  - delay: 6
+    content: "\e]0;maurice@TheCloud: /projects/maurice-website-projects/terminalizer\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m/projects/maurice-website-projects/terminalizer\e[00m$ "
+  - delay: 1516
+    content: "logout\r\n"

@@ -1,0 +1,14 @@
+{
+  "name": "terminalizer-demo",
+  "version": "1.0.0",
+  "description": "Demo for Terminalizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maurice Borgmeier",
+  "license": "MIT",
+  "devDependencies": {
+    "terminalizer": "^0.7.2"
+  }
+}

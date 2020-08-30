@@ -1,0 +1,261 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /projects/maurice-website-projects/terminalizer
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 110
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 6
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: terminalizer render hello
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 16
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 968
+    content: "\e]0;maurice@TheCloud: /projects/maurice-website-projects/terminalizer\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m/projects/maurice-website-projects/terminalizer\e[00m$ "
+  - delay: 818
+    content: t
+  - delay: 55
+    content: e
+  - delay: 121
+    content: r
+  - delay: 124
+    content: m
+  - delay: 43
+    content: i
+  - delay: 156
+    content: 'n'
+  - delay: 126
+    content: a
+  - delay: 62
+    content: l
+  - delay: 181
+    content: i
+  - delay: 159
+    content: z
+  - delay: 130
+    content: e
+  - delay: 66
+    content: r
+  - delay: 119
+    content: ' '
+  - delay: 141
+    content: r
+  - delay: 67
+    content: e
+  - delay: 145
+    content: 'n'
+  - delay: 86
+    content: d
+  - delay: 175
+    content: e
+  - delay: 63
+    content: r
+  - delay: 166
+    content: ' '
+  - delay: 425
+    content: h
+  - delay: 124
+    content: e
+  - delay: 160
+    content: l
+  - delay: 132
+    content: l
+  - delay: 165
+    content: o
+  - delay: 1702
+    content: "\r\n"
+  - delay: 2889
+    content: "\e[1GRendering \e[35mframe 1/22\e[39m 4% [=-----------------------------] 0.0s\e[0K"
+  - delay: 87
+    content: "\e[1GRendering \e[35mframe 2/22\e[39m 9% [===---------------------------] 0.9s\e[0K"
+  - delay: 83
+    content: "\e[1GRendering \e[35mframe 3/22\e[39m 13% [====--------------------------] 1.1s\e[0K"
+  - delay: 86
+    content: "\e[1GRendering \e[35mframe 4/22\e[39m 18% [=====-------------------------] 1.2s\e[0K"
+  - delay: 81
+    content: "\e[1GRendering \e[35mframe 5/22\e[39m 22% [=======-----------------------] 1.1s\e[0K"
+  - delay: 83
+    content: "\e[1GRendering \e[35mframe 6/22\e[39m 27% [========----------------------] 1.1s\e[0K"
+  - delay: 83
+    content: "\e[1GRendering \e[35mframe 7/22\e[39m 31% [==========--------------------] 1.1s\e[0K"
+  - delay: 85
+    content: "\e[1GRendering \e[35mframe 8/22\e[39m 36% [===========-------------------] 1.0s\e[0K"
+  - delay: 84
+    content: "\e[1GRendering \e[35mframe 9/22\e[39m 40% [============------------------] 1.0s\e[0K"
+  - delay: 84
+    content: "\e[1GRendering \e[35mframe 10/22\e[39m 45% [==============----------------] 0.9s\e[0K"
+  - delay: 82
+    content: "\e[1GRendering \e[35mframe 11/22\e[39m 50% [===============---------------] 0.8s\e[0K"
+  - delay: 82
+    content: "\e[1GRendering \e[35mframe 12/22\e[39m 54% [================--------------] 0.8s\e[0K"
+  - delay: 84
+    content: "\e[1GRendering \e[35mframe 13/22\e[39m 59% [==================------------] 0.7s\e[0K"
+  - delay: 83
+    content: "\e[1GRendering \e[35mframe 14/22\e[39m 63% [===================-----------] 0.6s\e[0K"
+  - delay: 84
+    content: "\e[1GRendering \e[35mframe 15/22\e[39m 68% [====================----------] 0.5s\e[0K"
+  - delay: 91
+    content: "\e[1GRendering \e[35mframe 16/22\e[39m 72% [======================--------] 0.5s\e[0K"
+  - delay: 93
+    content: "\e[1GRendering \e[35mframe 17/22\e[39m 77% [=======================-------] 0.4s\e[0K"
+  - delay: 99
+    content: "\e[1GRendering \e[35mframe 18/22\e[39m 81% [=========================-----] 0.3s\e[0K"
+  - delay: 84
+    content: "\e[1GRendering \e[35mframe 19/22\e[39m 86% [==========================----] 0.2s\e[0K"
+  - delay: 83
+    content: "\e[1GRendering \e[35mframe 20/22\e[39m 90% [===========================---] 0.2s\e[0K"
+  - delay: 82
+    content: "\e[1GRendering \e[35mframe 21/22\e[39m 95% [=============================-] 0.1s\e[0K"
+  - delay: 84
+    content: "\e[1GRendering \e[35mframe 22/22\e[39m 100% [==============================] 0.0s\e[0K\r\n"
+  - delay: 145
+    content: "\e[1GMerging \e[35mframe 1/22\e[39m 4% [=-----------------------------] 0.0s\e[0K"
+  - delay: 819
+    content: "\e[1GMerging \e[35mframe 2/22\e[39m 9% [===---------------------------] 8.2s\e[0K"
+  - delay: 1077
+    content: "\e[1GMerging \e[35mframe 3/22\e[39m 13% [====--------------------------] 12.0s\e[0K"
+  - delay: 838
+    content: "\e[1GMerging \e[35mframe 4/22\e[39m 18% [=====-------------------------] 12.3s\e[0K"
+  - delay: 887
+    content: "\e[1GMerging \e[35mframe 5/22\e[39m 22% [=======-----------------------] 12.3s\e[0K"
+  - delay: 779
+    content: "\e[1GMerging \e[35mframe 6/22\e[39m 27% [========----------------------] 11.7s\e[0K"
+  - delay: 869
+    content: "\e[1GMerging \e[35mframe 7/22\e[39m 31% [==========--------------------] 11.3s\e[0K"
+  - delay: 764
+    content: "\e[1GMerging \e[35mframe 8/22\e[39m 36% [===========-------------------] 10.6s\e[0K"
+  - delay: 878
+    content: "\e[1GMerging \e[35mframe 9/22\e[39m 40% [============------------------] 10.0s\e[0K"
+  - delay: 770
+    content: "\e[1GMerging \e[35mframe 10/22\e[39m 45% [==============----------------] 9.2s\e[0K"
+  - delay: 796
+    content: "\e[1GMerging \e[35mframe 11/22\e[39m 50% [===============---------------] 8.5s\e[0K"
+  - delay: 758
+    content: "\e[1GMerging \e[35mframe 12/22\e[39m 54% [================--------------] 7.7s\e[0K"
+  - delay: 836
+    content: "\e[1GMerging \e[35mframe 13/22\e[39m 59% [==================------------] 7.0s\e[0K"
+  - delay: 780
+    content: "\e[1GMerging \e[35mframe 14/22\e[39m 63% [===================-----------] 6.2s\e[0K"
+  - delay: 784
+    content: "\e[1GMerging \e[35mframe 15/22\e[39m 68% [====================----------] 5.4s\e[0K"
+  - delay: 882
+    content: "\e[1GMerging \e[35mframe 16/22\e[39m 72% [======================--------] 4.7s\e[0K"
+  - delay: 852
+    content: "\e[1GMerging \e[35mframe 17/22\e[39m 77% [=======================-------] 3.9s\e[0K"
+  - delay: 809
+    content: "\e[1GMerging \e[35mframe 18/22\e[39m 81% [=========================-----] 3.2s\e[0K"
+  - delay: 853
+    content: "\e[1GMerging \e[35mframe 19/22\e[39m 86% [==========================----] 2.4s\e[0K"
+  - delay: 818
+    content: "\e[1GMerging \e[35mframe 20/22\e[39m 90% [===========================---] 1.6s\e[0K"
+  - delay: 879
+    content: "\e[1GMerging \e[35mframe 21/22\e[39m 95% [=============================-] 0.8s\e[0K"
+  - delay: 864
+    content: "\e[1GMerging \e[35mframe 22/22\e[39m 100% [==============================] 0.0s\e[0K\r\n"
+  - delay: 858
+    content: "\r\n\e[32mSuccessfully Rendered\e[39m\r\nThe animated GIF image is saved into the file:\r\n\e[35m/projects/maurice-website-projects/terminalizer/render1598810405507.gif\e[39m\r\n"
+  - delay: 11
+    content: "\e]0;maurice@TheCloud: /projects/maurice-website-projects/terminalizer\a\e[01;32mmaurice@TheCloud\e[00m:\e[01;34m/projects/maurice-website-projects/terminalizer\e[00m$ "
+  - delay: 2124
+    content: "logout\r\n"
