@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src/"]
+
+[project]
+name = "amazon-purchases"
+version = "0.0.1"
+dependencies = ["pandas", "dash", "dash-bootstrap-components"]
+requires-python = ">= 3.11"
+authors = [{ name = "Maurice Borgmeier" }]
+description = "Package that bundles some tools for the AWS Identity Center (SSO)"
+readme = "README.md"
+
+[project.scripts]
+
+parse-export = "parser:main"
+visualize-parsed = "analysis:main"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+# addopts = "-ra -q"
+testpaths = ["tests"]
