@@ -1,5 +1,7 @@
 # Analyze your Amazon purchases
 
+Check out: [Analyzing my Amazon Purchases with Pandas and Dash](https://mauricebrg.com/2024/05/analyzing-my-amazon-purchases-with-pandas-and-dash.html)
+
 The tools in this repository help you analyze your Amazon Data Export.
 
 ![Screenshot](screenshot.png)
