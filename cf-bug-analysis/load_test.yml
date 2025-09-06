@@ -1,0 +1,23 @@
+config:
+  target: "https://djg08me13l9y8.cloudfront.net"
+  phases:
+    - duration: 120
+      arrivalRate: 50
+      name: "Load test phase"
+  processor: "./hooks.js"
+  plugins:
+    metrics-by-endpoint: {}
+
+scenarios:
+    # Requesting a non-existent page from the S3 origin triggers an HTTP 403
+    # from S3, which should be turned into a HTTP 404 + custom error page by
+    # the custom error repsponse config.
+  - name: "Non-existent page"
+    weight: 100
+    flow:
+      - get:
+          url: "/non-existent-page"
+          afterResponse: "logAndMetrics"
+      # - get:
+      #     url: "/404.html"
+      #     afterResponse: "logAndMetrics"
